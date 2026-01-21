@@ -2,7 +2,7 @@
 
 ## DESCRIPCION
 
-Es un proyecto base para la ingeniera de datos en el cual ponemos aprueba el uso de varias librerias de python para la creacion de datos de ventas enseguida la aplicacion de reglas en cuanto la calidad de los datos 
+Es un proyecto base para la ingeniera de datos en el cual ponemos aprueba el uso de varias librerias de python para la creacion de datos de ventas enseguida la aplicacion de ETL  en cuanto la calidad de los datos 
 
 ## HERRAMIENTAS
 
