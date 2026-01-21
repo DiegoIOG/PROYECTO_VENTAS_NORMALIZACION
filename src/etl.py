@@ -59,26 +59,26 @@ def guardar_datos(df):
 
 
 def main():
-    print("🚀 Iniciando proceso ETL...\n")
+    print("Iniciando proceso ETL...\n")
 
-    print("📥 Generando datos de ventas...")
+    print("Generando datos de ventas...")
     generar_datos()
 
-    print("📖 Leyendo datos...")
+    print("Leyendo datos...")
     df = leer_datos()
 
-    print("🧹 Aplicando filtros de calidad...")
+    print("Aplicando filtros de calidad")
     df_limpio, total, eliminados = filtrar_datos(df)
 
-    print("💾 Guardando datos procesados...")
+    print("Guardando datos procesados")
     guardar_datos(df_limpio)
 
-    print("\n📊 Resumen del ETL")
+    print(" Resumen del ETL")
     print(f"Registros totales: {total}")
     print(f"Registros eliminados: {eliminados}")
     print(f"Registros finales: {len(df_limpio)}")
 
-    print("\n✅ ETL finalizado correctamente")
+    print("ETL finalizado correctamente")
 
 
 if __name__ == "__main__":
