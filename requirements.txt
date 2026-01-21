@@ -1,0 +1,6 @@
+## Librerias 
+pandas 
+faker 
+random
+datetime
+
